@@ -1,6 +1,5 @@
 @extends('tema')
 
-
 @section('Titulo','Arbol Familiar')
 @section('contenido')
   <h4>Abuelos Paternos</h4>
@@ -24,8 +23,8 @@
 
 <h4>Hijos</h4>
     <br>
-@foreach ($hijos as $nom)
+@foreach ($hij as $nom)
 <li>{{$nom['nombre']}}</li>
 @endforeach
-  
+ <br>
   @endsection

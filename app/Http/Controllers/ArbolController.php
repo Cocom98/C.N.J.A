@@ -34,14 +34,15 @@ class ArbolController extends Controller
 
         ];
 
-        $hijos=[
+        $hij=[
             ['nombre' => 'Jose Armando Cocom'],
             ['nombre' => 'Margely Cocom'],
+             
                      
 
         ];
         
-        return view('arbol', compact('Apaterno', 'Amaterno','padres','hijos'));
+        return view('arbol', compact('Apaterno', 'Amaterno','padres','hij'));
     }
 
     /**
